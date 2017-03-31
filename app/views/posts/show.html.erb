@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong> <%= @post.user.email %> </strong>
+    <%= @post.description %>
+</p>
+
+<img src="<%= @post.post_image %>" alt="image", height="200px", width="250px">
+
+
+
+<%= link_to @follow_status, toggle_follow_post_path(user_id:
+@post.user_id), class: @follow_status %>
+
+<%= link_to @like_status, toggle_like_post_path %>
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+
+<%= link_to 'Back', posts_path %>

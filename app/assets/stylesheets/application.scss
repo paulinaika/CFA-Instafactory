@@ -13,3 +13,68 @@
  *= require_tree .
  *= require_self
  */
+
+@import "materialize";
+
+
+html {
+  background: url('http://3solinc.com/wp-content/uploads/2013/09/backgroundSquares1.png')
+}
+
+nav{
+  background-color: white;
+}
+nav ul li a{
+  color: #000;
+}
+nav .brand-logo {
+  color: #000;
+  font-size: 1.5em;
+}
+
+.back-button a{
+  color: black;
+}
+
+h1{
+  color: #448aff;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.instafactory{
+  height: 50%;
+  width: 50%;
+}
+
+.orange-header{
+  color: #ff9800;
+}
+
+.blue-header{
+  color: #448aff;
+}
+
+.nav a{
+  color: #000;
+}
+
+.material-icons{
+  color: #000;
+}
+
+.fa {
+ font-size: 2em;
+}
+
+.Follow {
+  color: green;
+  font-size: 30px;
+}
+
+.Unfollow {
+  color: red;
+  font-size: 30px;
+}
